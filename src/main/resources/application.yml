@@ -3,10 +3,10 @@ spring:
     name: ibo-service
 
   datasource:
-    url: "jdbc:mysql://ibo-db.cij9ycjxeyv6.us-east-1.rds.amazonaws.com:3306/ibo_db"
+    url: "<your_db_url"
     driver-class-name: com.mysql.cj.jdbc.Driver
-    username: admin
-    password: K6d4aT9Zm2qo617sffma
+    username: <your_db_username>
+    password: <your_db_password>
   flyway:
     default-schema: "ibo_db"
     locations: "classpath:db/migration"
